@@ -1,0 +1,71 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main {
+    background-color: #2148C0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 550px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.form_design {
+    width: 280px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+.icon {
+    color: white;
+    width: 8px;
+    height: 8px;
+    color: lightgray;
+}
+
+input {
+    background-color: transparent;
+    border: 0px solid;
+    outline: none;
+    text-decoration: cornsilk;
+}
+
+::placeholder {
+    color: lightgray;
+}
+
+.placeholder {
+    color: white;
+}
+
+.button {
+    background-color: white;
+    width: 280px;
+    height: 45px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+
+.f_pass {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+}
